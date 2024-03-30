@@ -5,9 +5,9 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <html>
-    <header>
-        <img class="logo" src="assets/logo_white.png" alt="logo"></img>
+    <body>
+      <header>
+        <img src="assets\logo_white.png" class="logo" alt="logo"/>
         <nav>
           <ul class="nav_links">
             <li><a href="#">About</a></li>
@@ -17,27 +17,29 @@ function App() {
           </ul>
         </nav>
         <a class="cta" href="#"><button>Feedback</button></a>
-    </header>
-      <div>
-        <h1 className="title">Bias 
-        Vector</h1>
-      </div>
+      </header>
+      <section>
+        <div>
+          <h1 className="title">Bias 
+          Vector</h1>
+        </div>
 
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <button onClick={() => setCount((count) => count - 1)}>
-          Decrement
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+        <div className="card">
+          <button onClick={() => setCount((count) => count + 1)}>
+            count is {count}
+          </button>
+          <button onClick={() => setCount((count) => count - 1)}>
+            Decrement
+          </button>
+          <p>
+            Edit <code>src/App.jsx</code> and save to test HMR
+          </p>
+        </div>
+        <p className="read-the-docs">
+          Click on the Vite and React logos to learn more
         </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </html>
+      </section>
+    </body>
   )
 }
 

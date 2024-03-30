@@ -4,12 +4,18 @@
   margin: 0 auto;
   padding: 0;
   text-align: center;
-  box-sizing: border-box;
 }
 
-html {
+div {
   margin: 0;
   padding: 0;
+
+}
+
+section {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 li,a,button {
@@ -23,24 +29,29 @@ li,a,button {
 
 header {
   display: flex;
+  position: relative;
   justify-content: space-between;
   align-items: center;
-  padding: 0 0; /* 30px top bottom 10% sides*/
+  padding: 30px 10%; /* 30 top bottom 10% sides*/
 }
 
 body{
   background-image: url("assets/bg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
-  background-position: center top; 
-  padding: 0;
   margin: 0;
+  padding: 0;
+  min-height: 100vh;
 }
 
-.wave {
-  background: url("assets/wave.gif");
-  display:block;
-  width: 100%;
-  height: auto;
+.headerbody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0;
+
 }
 
 .ul {
@@ -62,7 +73,7 @@ body{
 
 .nav_links li {
   display: inline-block;
-  padding: 0px, 20px;
+  padding: 0px 20px;
 }
 
 .nav_links li a {
@@ -108,12 +119,3 @@ color: rgb(255, 255, 255);
   transition: 1000ms;
  }
 
-
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
