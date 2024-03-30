@@ -1,0 +1,23 @@
+.container {
+      width: 80%;
+      margin: 50px auto;
+      overflow-y: auto;
+      max-height: 500px;
+    }
+    .website {
+      margin-bottom: 30px;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+    .website h2 {
+      font-size: 24px;
+      margin-top: 0;
+      margin-bottom: 10px;
+      color: #333;
+    }
+    .bias-score {
+      font-size: 18px;
+      color: #666;
+    }

@@ -14,13 +14,13 @@ function App() {
         <nav>
           <ul class="nav_links">
             <li><a href="index.html">Home</a></li>
-            <li><a href="#">Database</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Team</a></li>
-            <li><a href="#">References</a></li>
+            <li><a href="/../database.html">Database</a></li>
+            <li><a href="/../about.html">About</a></li>
+            <li><a href="/../team.html">Team</a></li>
+            <li><a href="/../references.html">References</a></li>
           </ul>
         </nav>
-        <a class="cta" href="#"><button>Feedback</button></a>
+        <a class="cta" href="/../feedback.html"><button>Feedback</button></a>
       </header>
       <section>
         <div>
@@ -39,7 +39,12 @@ function App() {
                 <input type="text" placeholder="Enter a URL"/>
               </div>    
         </div>
-        
+        <br/>
+        <div>
+          <button className="analyze">
+            Analyze
+          </button> 
+        </div>
       </section>
     </body>
   )

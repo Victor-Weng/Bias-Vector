@@ -148,4 +148,22 @@ color: rgb(255, 255, 255);
   color: rgb(255, 255, 255);	
 }
 
-
+.analyze {
+  padding: 10px 20px;
+  background-color: #1d1e2200;
+  border: 2px solid #ffffff5d;
+  border-radius: 8px;
+  color: #ffffff80;
+  font-size: 1.2em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+.analyze:hover {
+  box-shadow: 0 0 5px #8a8a8a98, 0 0 10px #ffffff9f, 0 0 21px rgba(56, 133, 188, 0.664), 0 0 20.5px rgba(118, 53, 164, 0.674),0 0 23px rgba(0, 255, 170, 0.614);
+  transition: 200ms;
+}
+.analyze.title:not(:hover) {
+  box-shadow: 0 0 5px #8a8a8a48, 0 0 10px #ffffff35, 0 0 21px rgba(56, 133, 188, 0.221), 0 0 20.5px rgba(118, 53, 164, 0.244),0 0 23px rgba(0, 255, 170, 0.614);
+  transition: 200ms;
+}
