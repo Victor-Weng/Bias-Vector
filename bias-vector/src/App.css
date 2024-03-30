@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700,200');
+
+#root{
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+li,a,button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  color: #fff;
+  text-decoration: none;
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0; /* 30px top bottom 10% sides*/
+}
+
+body{
+  background-image: url("assets/bg.png");
+  background-size: cover;
+  background-position: center top; 
+  padding: 0;
+  margin: 0;
+}
+
+.wave {
+  background: url("assets/wave.gif");
+  display:block;
+  width: 100%;
+  height: auto;
+}
+
+.ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  cursor: pointer;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px, 20px;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+  text-shadow: 0 0 10px #8a8a8a, 0 0 20px #fff, 0 0 42px rgb(56, 133, 188), 0 0 82px rgb(117, 53, 164),0 0 92px #0fa;
+color: rgb(255, 255, 255);	
+transition: 300ms;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: transparent;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  text-shadow: 0 0 10px #8a8a8a, 0 0 20px #fff, 0 0 42px rgb(56, 133, 188), 0 0 82px rgb(117, 53, 164),0 0 92px #0fa;
+color: rgb(255, 255, 255);	
+transition: 300ms;
+}
+
+.title{
+  font-size: 6em;
+  font-weight: 700;
+  text-decoration: none;
+  font-family: 'Poppins',sans-serif;
+  
+}
+.title:hover {
+  text-shadow: 0 0 10px #8a8a8a, 0 0 20px #fff, 0 0 42px rgb(56, 133, 188), 0 0 82px rgb(117, 53, 164),0 0 92px #0fa;
+color: rgb(255, 255, 255);	
+transition: 300ms;
+ }
+ .title:not(:hover) {
+  text-shadow: 0 0 5px #8a8a8a, 0 0 10px #fff, 0 0 21px rgb(56, 133, 188), 0 0 20.5px rgb(117, 53, 164),0 0 23px #0fa;
+color: rgb(255, 255, 255);	
+  transition: 1000ms;
+ }
+
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
