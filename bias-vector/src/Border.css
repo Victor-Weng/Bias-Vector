@@ -32,7 +32,7 @@
 	background-repeat: no-repeat;
 	background-position: 0 0;
   /*border color, change middle color*/
-	background-image: conic-gradient(rgba(0,0,0,0), #1976ed, rgba(0,0,0,0) 25%);
+	background-image: conic-gradient(rgba(51, 225, 210, 0.874), #b30ca7, #1975ed9c 25%);
   /* change speed here */
 	animation: rotate 5s linear infinite;
 }
