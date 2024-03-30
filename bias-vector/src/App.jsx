@@ -13,9 +13,10 @@ function App() {
         </img>
         <nav>
           <ul class="nav_links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Database</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Team</a></li>
-            <li><a href="#">Database</a></li>
             <li><a href="#">References</a></li>
           </ul>
         </nav>
