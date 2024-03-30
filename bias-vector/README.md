@@ -1,8 +1,8 @@
-# React + Vite
+# Submission for GenAI Genesis Hackathon 2024
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A tool powered by Google's AI developer suite that leverages generative AI to identify bias in a provided source. The solution, Vector Bias, aims to address the sustainability development goals 4 and 16:
 
-Currently, two official plugins are available:
+4: Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all
+16: Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Source: https://sdgs.un.org/goals
