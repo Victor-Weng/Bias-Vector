@@ -32,7 +32,7 @@ header {
   position: relative;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 10%; /* 30 top bottom 10% sides*/
+  padding: 10px 10%; /* 30 top bottom 10% sides*/
   background-color: rgba(7, 18, 41, 0.441);
   box-shadow: rgba(0, 0, 0, 0.81) 12px 10px 40px;
 }
@@ -84,6 +84,8 @@ body{
 .nav_links li a {
   transition: all 0.3s ease 0s;
   font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 100%
 }
 
 .nav_links li a:not(:hover){

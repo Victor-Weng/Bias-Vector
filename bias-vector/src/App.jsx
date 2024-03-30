@@ -26,13 +26,19 @@ function App() {
           <h1 className="title">Bias 
           Vector</h1>
           <div className="b">
-          Find the bias in your source.
+          Find the bias in your source. Powered by Google Gemini.
+          </div>
         </div>
+
+        <div class="center-box">
+        <div class="animated-border-box-glow"></div>
+            <div class="animated-border-glow">
+          </div>  
+          <div class="highz">
+                <input type="text" placeholder="Enter a URL"/>
+              </div>    
         </div>
-        <div>
         
-        <button className="animated-border-box">Get Started</button>
-        </div>
       </section>
     </body>
   )
