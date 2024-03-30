@@ -1,13 +1,16 @@
 import { useState } from 'react'
 import './App.css'
+import './Border.css'
 
 function App() {
   const [count, setCount] = useState(0)
+  const [link, setLink] = useState("www.google.com")
 
   return (
     <body>
       <header>
-        <img src="assets\logo_white.png" class="logo" alt="logo"/>
+        <img src="src\images\logo_white.png" class="logo" alt="logo">
+        </img>
         <nav>
           <ul class="nav_links">
             <li><a href="#">About</a></li>
@@ -22,22 +25,14 @@ function App() {
         <div>
           <h1 className="title">Bias 
           Vector</h1>
+          <div className="b">
+          Find the bias in your source.
         </div>
-
-        <div className="card">
-          <button onClick={() => setCount((count) => count + 1)}>
-            count is {count}
-          </button>
-          <button onClick={() => setCount((count) => count - 1)}>
-            Decrement
-          </button>
-          <p>
-            Edit <code>src/App.jsx</code> and save to test HMR
-          </p>
         </div>
-        <p className="read-the-docs">
-          Click on the Vite and React logos to learn more
-        </p>
+        <div>
+        
+        <button className="animated-border-box">Get Started</button>
+        </div>
       </section>
     </body>
   )
