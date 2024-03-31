@@ -58,12 +58,12 @@ body {
   .carousel-primary {
     display: flex;
     justify-content: space-around;
-    animation: scroll-horizontal 20s linear infinite;
-    animation-delay: -10.1s;
+    animation: scroll-horizontal 40s linear infinite;
+    animation-delay: -20.2s;
   }
 
   .carousel-secondary {
-    animation: scroll-horizontal 20s linear infinite;
+    animation: scroll-horizontal 40s linear infinite;
   }
  
 

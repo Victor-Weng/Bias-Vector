@@ -28,7 +28,7 @@ function Database() {
   </div>
   <div class="website">
     <h2>Fox News</h2>
-    <p class="bias-score">Bias Score: 6.5</p>
+    <p class="bias-score">Bias Score: 9.8</p>
   </div>
   <div class="website">
     <h2>The New York Times</h2>
