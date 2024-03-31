@@ -21,22 +21,57 @@ function Database() {
         </nav>
         <a class="cta" href="/../feedback.html"><button>Feedback</button></a>
       </header>
-      <div class="container">
-  <div class="scrolling-carnival">
-    <div class="website">
-      <h2>Example Website 1</h2>
-      <p class="bias-score">Bias Score: 7.8</p>
-    </div>
-    <div class="website">
-      <h2>Example Website 2</h2>
-      <p class="bias-score">Bias Score: 6.5</p>
-    </div>
-    <div class="website">
-      <h2>Example Website 3</h2>
-      <p class="bias-score">Bias Score: 5.2</p>
-    </div>
+      <div class="carousel-primary">
+  <div class="website">
+    <h2>CNN</h2>
+    <p class="bias-score">Bias Score: 7.8</p>
   </div>
+  <div class="website">
+    <h2>Fox News</h2>
+    <p class="bias-score">Bias Score: 6.5</p>
   </div>
+  <div class="website">
+    <h2>The New York Times</h2>
+    <p class="bias-score">Bias Score: 5.2</p>
+  </div>
+  <div class="website">
+    <h2>BBC</h2>
+    <p class="bias-score">Bias Score: 4.7</p>
+  </div>
+  <div class="website">
+    <h2>Reuters</h2>
+    <p class="bias-score">Bias Score: 4.3</p>
+  </div>
+  <div class="website">
+    <h2>Al Jazeera</h2>
+    <p class="bias-score">Bias Score: 3.9</p>
+  </div>
+  <div class="website">
+    <h2>The Guardian</h2>
+    <p class="bias-score">Bias Score: 3.6</p>
+  </div>
+  <div class="website">
+    <h2>Breitbart</h2>
+    <p class="bias-score">Bias Score: 8.2</p>
+  </div>
+  <div class="website">
+    <h2>NPR</h2>
+    <p class="bias-score">Bias Score: 3.2</p>
+  </div>
+  <div class="website">
+    <h2>Politico</h2>
+    <p class="bias-score">Bias Score: 4.9</p>
+  </div>
+</div>
+
+<script>
+  const container = document.querySelector('.container');
+  const originalContent = container.innerHTML;
+
+  // Clone original content and append to container
+  container.innerHTML += originalContent;
+</script>
+
     </body>
   )
 }
