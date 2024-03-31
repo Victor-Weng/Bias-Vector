@@ -4,7 +4,18 @@ import './Border.css'
 
 function App() {
   const [count, setCount] = useState(0)
-  const [link, setLink] = useState("www.google.com")
+  // Declare dynamic variable and set variable function and default value. To change variables in react,
+  // you need to use a useState hook
+  const [link, setLink] = useState("www.google.com") 
+  const analyze = () => { // create function "analyze"
+    // WHAT HAPPENS WHEN YOU PRESS THE BUTTON that has onClick = {analyze}
+
+    alert(link) // to show alert for the link
+  }
+  const change = event => { //create function "change" that lets you change the value of the input box
+    // pass in the event and get the value. Assign it back to the setState
+    setLink(event.target.value)
+  }
 
   return (
     <body>
@@ -36,12 +47,12 @@ function App() {
             <div class="animated-border-glow">
           </div>  
           <div class="highz">
-                <input type="text" placeholder="Enter a URL"/>
+                <input type="text" value={link} onChange={change}/>
               </div>    
         </div>
         <br/>
         <div>
-          <button className="analyze">
+          <button className="analyze" onClick = {analyze}>
             Analyze
           </button> 
         </div>
